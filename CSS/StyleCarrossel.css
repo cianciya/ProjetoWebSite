@@ -1,0 +1,39 @@
+.anterior,
+.proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.anterior {
+    left: 0;
+}
+
+.proximo {
+    right: 0;
+}
+/*-------------------------------------------------------------------*/
+/* Ajuste para o carrossel */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+/*-------------------------------------------------------------------*/
+/* Estilo para os slides */
+.slides {
+    display: flex;
+}
+.slide {
+    flex: 0 0 100%; /* Definindo a largura fixa de cada slide */
+}
+/*----------------------------------------------------------------*/
+
+

@@ -1,0 +1,30 @@
+/* Estilo para o título */
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+/*-------------------------------------------------------------------*/
+/* Estilo para o Sub título da seção */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center; /* Centraliza o texto */
+}
+/*-------------------------------------------------------------------*/
+/* Estilo para o texto */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+/*-------------------------------------------------------------------*/
+/* Estilo para o texto do projeto */
+.projeto p {
+    width: 50%; /* Define a largura do texto como 50% da largura da tela */
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 20px; /* Adiciona margem à esquerda para separar o texto da imagem */
+}
